@@ -1,0 +1,33 @@
+.awesome {
+  padding: 80px 0 116px;
+}
+.wrap{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 68px;
+}
+.card {
+  width: 350px;
+  }
+.card-img {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 30px;
+  border: 1px solid #E72424;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #333333;
+}
+.card-text {
+  text-align: center;
+  }
+.card-text p {
+  font-size: 14px;
+}

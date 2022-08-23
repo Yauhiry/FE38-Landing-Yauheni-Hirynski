@@ -1,5 +1,6 @@
 @import url(../css/cdn.css);
 @import url(../css/awesome.css);
+@import url(../css/pricing.css);
 
 * {
   margin: 0;
@@ -15,6 +16,11 @@ html {
   max-width: 1170px;
   margin: auto;
   padding: 0 15px;
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .title {
   text-align: center;

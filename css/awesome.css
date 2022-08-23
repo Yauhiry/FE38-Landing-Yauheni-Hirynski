@@ -1,13 +1,12 @@
 .awesome {
   padding: 80px 0 116px;
 }
-.wrap{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 68px;
+.wrap_awesome{
+  margin: 68px -15px 0;
 }
 .card {
   width: 350px;
+  margin: 0 15px;
   }
 .card-img {
   width: 70px;

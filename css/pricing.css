@@ -1,0 +1,45 @@
+.pricing{
+  padding: 80px 0 60px;
+  background-color: #F5F5F5;
+  ;
+}
+.wrap_pricing {
+  margin: 61px -15px 0;
+}
+.list {
+  width: 340px; 
+  margin: 0 15px; 
+}
+.list__item {
+  margin-top: 4px;
+  line-height: 40px;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  color: #86878B;
+}
+.list__item_tariff {
+  margin-top: 0;
+  line-height: 50px;  
+  background-color: #333333;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.list__item_coast {
+  margin-top: 2px;
+  line-height: 100px;
+  background-color: #333333;
+  font-size: 35px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+.list__item_free {
+  margin-top: 2px;
+  line-height: 50px;
+  background-color: #333333;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+}

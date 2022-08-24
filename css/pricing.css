@@ -11,7 +11,7 @@
   margin: 0 15px; 
 }
 .list__item {
-  margin-top: 4px;
+  margin-bottom: 4px;
   line-height: 40px;
   background-color: #FFFFFF;
   text-align: center;
@@ -19,7 +19,7 @@
   color: #86878B;
 }
 .list__item_tariff {
-  margin-top: 0;
+  margin-bottom: 2px;
   line-height: 50px;  
   background-color: #333333;
   font-size: 20px;
@@ -27,7 +27,7 @@
   font-weight: 700;
 }
 .list__item_coast {
-  margin-top: 2px;
+  margin-bottom: 2px;
   line-height: 100px;
   background-color: #333333;
   font-size: 35px;
@@ -36,7 +36,6 @@
   font-family: "Raleway";
 }
 .list__item_free {
-  margin-top: 2px;
   line-height: 50px;
   background-color: #333333;
   font-size: 14px;

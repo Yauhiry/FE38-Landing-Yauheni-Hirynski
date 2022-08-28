@@ -1,6 +1,8 @@
 @import url(../css/cdn.css);
 @import url(../css/awesome.css);
 @import url(../css/pricing.css);
+@import url(../css/customers.css);
+@import url(../css/axure.css);
 
 * {
   margin: 0;
@@ -16,6 +18,8 @@ html {
   max-width: 1170px;
   margin: auto;
   padding: 0 15px;
+  position: relative;
+  z-index: 2;
 }
 .wrap {
   display: flex;
@@ -30,14 +34,25 @@ html {
   font-family: "Raleway";
   font-weight: 400;
 }
-.line {
+.title::after {
+  content: "";
   width: 64px;
-  height: 2px;
+  height: 1px;
+  display: block;
   background-color: #E72424;
   margin: 34px auto;
+}
+.title_white {
+  color: #FFFFFF;
+}
+.title_white::after {
+  background-color: #FFFFFF;
 }
 .description p {
   text-align: center;
   font-size: 14px;
   color: #86878B;
+}
+.description_white p {
+  color: rgba(255, 255, 255, 0.8);
 }

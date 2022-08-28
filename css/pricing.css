@@ -8,7 +8,14 @@
 }
 .list {
   width: 340px; 
-  margin: 0 15px; 
+  margin: 0 10px;
+  position: relative;
+  top: 0px;
+  transition: 0.5s; 
+}
+.list:hover {
+  position: relative;
+  top: -10px;
 }
 .list__item {
   margin-bottom: 4px;
@@ -18,7 +25,7 @@
   font-size: 14px;
   color: #86878B;
 }
-.list__item_tariff {
+.list__item:nth-child(1) {
   margin-bottom: 2px;
   line-height: 50px;  
   background-color: #333333;
@@ -26,7 +33,7 @@
   color: #FFFFFF;
   font-weight: 700;
 }
-.list__item_coast {
+.list__item:nth-child(2) {
   margin-bottom: 2px;
   line-height: 100px;
   background-color: #333333;
@@ -35,10 +42,13 @@
   font-weight: 700;
   font-family: "Raleway";
 }
-.list__item_free {
+.list__item:nth-child(3) {
   line-height: 50px;
   background-color: #333333;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 600;
+  }
+.list__item:last-child {
+  margin-bottom: 0;
 }

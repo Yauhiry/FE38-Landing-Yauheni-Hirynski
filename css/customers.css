@@ -2,7 +2,7 @@
   padding: 80px 0 123px;
 }
 .wrap_customers {
-  margin-top: 67px;
+  margin: 67px -15px 0;
 }
 .review {
   width: 298px;
@@ -18,7 +18,8 @@
   .review-text::after {
   content: ''; 
   position: absolute;
-  left: 40px; bottom: -30px;
+  top: 100%;
+  left: 40px;
   border: 15px solid transparent;
   border-top: 15px solid #E2E2E2;
 }

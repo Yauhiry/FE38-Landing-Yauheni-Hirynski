@@ -16,12 +16,9 @@
   top: 0;
   left: 0;
 }
-.download {
-  margin-top: 57px;
-  display: flex;
-  justify-content: center;
-  }
 .download__link{
+  display: block;
+  margin: 57px auto 0;
   text-align: center;
   border: 1px solid #FFFFFF;
   width: 135px;

@@ -9,13 +9,11 @@
 .list {
   width: 340px; 
   margin: 0 15px;
-  position: relative;
-  top: 0px;
   transition: 0.5s; 
 }
 .list:hover {
-  position: relative;
-  top: -10px;
+  transform: translate(0, -10px);
+  box-shadow: 0 0 20px 0 #86878B
 }
 .list__item {
   margin-bottom: 4px;

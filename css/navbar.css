@@ -1,0 +1,36 @@
+.navbar {
+  padding: 20px 0 19px;
+  background-color: #000000;
+}
+.wrap_navbar {
+  align-items: center;
+}
+.logo span{
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.logo span::after {
+  content: "it";
+  color: #EC7979;
+}
+.navigation-list {
+  display: flex;
+}
+.navigation-list__item{
+  margin-left: 48px;
+}
+.navigation-list__item a{
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid transparent;
+  transition: 0.2s;
+}
+.navigation-list__item a:hover {
+  transform: scale(1.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}

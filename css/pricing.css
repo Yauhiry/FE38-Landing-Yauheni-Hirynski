@@ -1,0 +1,52 @@
+.pricing{
+  padding: 80px 0 60px;
+  background-color: #F5F5F5;
+  ;
+}
+.wrap_pricing {
+  margin: 61px -15px 0;
+}
+.list {
+  width: 340px; 
+  margin: 0 15px;
+  transition: 0.5s; 
+}
+.list:hover {
+  transform: translate(0, -10px);
+  box-shadow: 0 0 20px 0 #86878B
+}
+.list__item {
+  margin-bottom: 4px;
+  line-height: 40px;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  color: #86878B;
+}
+.list__item:nth-child(1) {
+  margin-bottom: 2px;
+  line-height: 50px;  
+  background-color: #333333;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.list__item:nth-child(2) {
+  margin-bottom: 2px;
+  line-height: 100px;
+  background-color: #333333;
+  font-size: 35px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+.list__item:nth-child(3) {
+  line-height: 50px;
+  background-color: #333333;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  }
+.list__item:last-child {
+  margin-bottom: 0;
+}

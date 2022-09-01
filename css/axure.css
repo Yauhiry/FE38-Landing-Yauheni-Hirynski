@@ -1,0 +1,33 @@
+.axure {
+  padding: 57px 0 38px;
+  background-image: url(../img/background\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.axure::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.download__link{
+  display: block;
+  margin: 57px auto 0;
+  text-align: center;
+  border: 1px solid #FFFFFF;
+  width: 135px;
+  line-height: 42px;
+  color: #FFFFFF;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.download__link:hover {
+  background-color: #ffffff;
+  color: #212121;
+} 

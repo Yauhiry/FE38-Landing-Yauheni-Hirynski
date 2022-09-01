@@ -1,0 +1,28 @@
+.page-footer {
+  background-color: #000000;
+  padding: 30px 0 15px ;
+}
+.footer-wrap {
+}
+.footer-social-list {
+    margin: auto;
+    width: 317px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social-list__item i{
+  font-size: 23px;
+  color: #CCCCCC;
+  transition: 0.2s;
+}
+.footer-item:hover {
+  transform: rotate(0) scale(1.5);
+  }
+.copyright {
+  display: block;
+  text-align: center;
+  margin-top: 18px;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}

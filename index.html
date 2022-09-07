@@ -11,19 +11,29 @@
 
 <body>
 
-  <header class="navbar">
+  <header class="header">
     <div class="container">
-      <div class="navbar-wrap">
+      <div class="wrap header__wrap">
         <div class="logo">
           <span>ax</span>
         </div>
-        <nav class="navigation">
-          <ul class="navigation-list">
-            <li class="navigation-list__item"><a href="#">Features</a></li>
-            <li class="navigation-list__item"><a href="#">About</a></li>
-            <li class="navigation-list__item"><a href="#">Pricing</a></li>
-            <li class="navigation-list__item"><a href="#">Reviews</a></li>
-            <li class="navigation-list__item"><a href="#">Contact</a></li>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__link" href="#">Features</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__link" href="#">About</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__link" href="#">Pricing</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__link" href="#">Reviews</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__link" href="#">Contact</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -32,8 +42,8 @@
 
   <section class="main">
     <div class="container">
-      <div class="wrap wrap_main">
-        <div class="main-info">
+      <div class="wrap main__wrap">
+        <div class="left">
           <h1 class="main-title">ax</h1>
           <h2 class="title_white title_white_left">modern axure template for beautiful prototypes</h2>
           <div class="description_white description_white_left">
@@ -43,31 +53,33 @@
             <a class="download__link download__link_left" href="#">Download</a>
           </div>
         </div>
-        <form action="#" class="main-form" name="form" method="post">
-          <div class="main-form-content">
-            <h2 class="main-form__title">try your <span>free</span> trial today</h2>
-            <div class="main-form__item">
-              <label for="user-name">Name</label>
-              <input type="text" class="main-form__input" id="user-name" name="name" required>
+        <div class="right">
+          <form action="#" class="main-form" name="form" method="post">
+            <div class="main-form-content">
+              <h2 class="main-form__title">try your <span>free</span> trial today</h2>
+              <div class="main-form__item">
+                <label for="user-name">Name</label>
+                <input type="text" class="main-form__input" id="user-name" name="name" required>
+              </div>
+             <div class="main-form__item">
+                <label for="user-email">Email</label>
+                <input type="email" class="main-form__input" id="user-email" name="email" required>
+              </div>
+              <div class="main-form__item">
+                <label for="user-password">Password</label>
+                <input type="password" class="main-form__input" id="user-password" name="password" required>
+              </div>
             </div>
-            <div class="main-form__item">
-              <label for="user-email">Email</label>
-              <input type="email" class="main-form__input" id="user-email" name="email" required>
-            </div>
-            <div class="main-form__item">
-              <label for="user-password">Password</label>
-              <input type="password" class="main-form__input" id="user-password" name="password" required>
-            </div>
-          </div>
-          <button class="main-form-button">Get Started</button>
-        </form>
+            <button class="main-form-button">Get Started</button>
+          </form>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="social">
     <div class="container">
-      <div class="wrap wrap_social">
+      <div class="wrap social__wrap">
         <div class="social-info">
           <h2 class="social-info__title">Social Media</h2>
           <div class="social-info__description">
@@ -116,13 +128,78 @@
     </div>
   </section>
 
+  <section class="tabs">
+    <div class="container">
+      <div class="wrap tabs__wrap">
+        <div class="tabs-header">
+          <button class="tabs-header__button tabs-header__button_active">tab 1</button>
+          <button class="tabs-header__button">tab 1</button>
+          <button class="tabs-header__button">tab 1</button>
+        </div>
+        <div class="tabs-content">
+          <div class="tabs-content__item">
+            <div class="tabs-content__left">
+              <h2 class="tabs-content__title">Tabs with soft transitioning effect</h2>
+              <div class="tabs-content__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+              </div>
+              <div class="tabs-content__download-link">
+                <a class="tabs-content__link" href="#">Download</a>
+              </div>
+            </div>
+            <div class="tabs-content__right">
+              <div class="tabs-content__image">
+                <img class="tabs-content__img" src="./img/image_right_u255@1X 1.png" alt="city">
+              </div>
+            </div>
+          </div>
+          <div class="tabs-content__item">
+            <div class="tabs-content__left">
+              <h2 class="tabs-content__title">Lorem ipsum dolor sit amet</h2>
+              <div class="tabs-content__text">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque nostrum nesciunt, numquam placeat, autem ipsa fugit at blanditiis dicta est quaerat eum. Ratione iure commodi cumque ipsum alias praesentium eveniet, minus maxime atque illo quo officia autem nesciunt est provident dignissimos libero, mollitia optio? Assumenda aliquam molestiae autem quidem nostrum?</p>                
+              </div>
+              <div class="tabs-content__download-link">
+                <a class="tabs-content__link" href="#">Download</a>
+              </div>
+            </div>
+            <div class="tabs-content__right">
+              <div class="tabs-content__image">
+                <img class="tabs-content__img" src="./img/image_right_u255@1X 1.png" alt="city">
+              </div>
+            </div>
+          </div>
+          <div class="tabs-content__item">
+            <div class="tabs-content__left">
+              <h2 class="tabs-content__title">Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+              <div class="tabs-content__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+              </div>
+              <div class="tabs-content__download-link">
+                <a class="tabs-content__link" href="#">Download</a>
+              </div>
+            </div>
+            <div class="tabs-content__right">
+              <div class="tabs-content__image">
+                <img class="tabs-content__img" src="./img/image_right_u255@1X 1.png" alt="city">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="awesome">
     <div class="container">
       <h2 class="title">why this is awesome</h2>
       <div class="description">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <div class="wrap wrap_awesome">
+      <div class="wrap awesome__wrap">
         <div class="card">
           <div class="card-img">
             <i class="fa-solid fa-lightbulb"></i>
@@ -160,7 +237,7 @@
       <div class="description">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <div class="wrap wrap_pricing">
+      <div class="wrap pricing__wrap">
         <ul class="list">
           <li class="list__item">Basic</li>
           <li class="list__item">$10</li>
@@ -204,7 +281,7 @@
       <div class="description">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <div class="wrap wrap_customers">
+      <div class="wrap customers__wrap">
         <div class="review">
           <div class="review-text">
             <p>Lorem ipsum dolor sit amet, 
@@ -281,70 +358,71 @@
       <div class="description">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <form action="#" class="contact-form">
-        <div class="contact-form-content">
-          <div class="left-form">
-            <div class="contact-form__item">
-              <label for="name">Name</label>
-              <input type="text" class="contact-form__input" id="name" name="name" required>
+      <div class="contact__wrap">
+        <form action="#" class="contact-form">
+          <div class="contact-form__content">
+            <div class="left-form">
+              <div class="contact-form__item">
+                <label for="name">Name</label>
+                <input type="text" class="contact-form__input" id="name" name="name" required>
+              </div>
+              <div class="contact-form__item">
+                <label for="surname">Surname</label>
+                <input type="text" class="contact-form__input" id="surname" name="surname" required>
+              </div>
+              <div class="contact-form__item">
+                <label for="email">Email</label>
+                <input type="email" class="contact-form__input" id="email" name="email" required>
+              </div>
             </div>
-            <div class="contact-form__item">
-              <label for="surname">Surname</label>
-              <input type="text" class="contact-form__input" id="surname" name="surname" required>
-            </div>
-            <div class="contact-form__item">
-              <label for="email">Email</label>
-              <input type="email" class="contact-form__input" id="email" name="email" required>
+            <div class="right-form">
+              <div class="contact-form__item">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
             </div>
           </div>
-          <div class="fixik"></div>
-          <div class="right-form">
-            <div class="contact-form__item">
-              <label for="message">Message</label>
-              <textarea name="message" id="message" required></textarea>
-            </div>
-          </div>
-        </div>
-        <button type="submit" class="contact-button">Send Message</button>
-      </form>
+          <button type="submit" class="contact-button">Send Message</button>
+        </form>
+      </div>
     </div>
   </section>
 
-  <footer class="page-footer">
+  <footer class="footer">
     <div class="container">
-      <div class="footer-wrap">
-        <ul class="footer-social-list">
-          <li class="footer-social-list__item">
+      <div class="footer__wrap">
+        <ul class="footer__social-list">
+          <li class="footer__social-list-item">
             <a href="https://www.facebook.com" target="_blank">
               <i class="fa-brands fa-facebook-f footer-item"></i>
             </a>
           </li>
-          <li class="footer-social-list__item">
+          <li class="footer__social-list-item">
             <a href="https://www.twitter.com" target="_blank">
               <i class="fa-brands fa-twitter footer-item"></i>
             </a>
           </li>
-          <li class="footer-social-list__item">
+          <li class="footer__social-list-item">
             <a href="https://plus.google.com" target="_blank">
               <i class="fa-brands fa-google-plus-g footer-item"></i>
             </a>
           </li>
-          <li class="footer-social-list__item">
+          <li class="footer__social-list-item">
             <a href="https://www.pinterest.com/" target="_blank">
               <i class="fa-brands fa-pinterest footer-item"></i>
             </a>
           </li>
-          <li class="footer-social-list__item">
+          <li class="footer__social-list-item">
             <a href="https://instagram.com/" target="_blank">
               <i class="fa-brands fa-instagram footer-item"></i>
             </a>
           </li>
-          <li class="footer-social-list__item">
+          <li class="footer__social-list-item">
             <a href="https://stumbleupon.com/" target="_blank">
               <i class="fa-brands fa-stumbleupon footer-item"></i>
             </a>
           </li>
-          <li class="footer-social-list__item">
+          <li class="footer__social-list-item">
             <a href="#" target="_blank">
               <i class="fa-solid fa-rss footer-item"></i>
             </a>

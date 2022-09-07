@@ -1,11 +1,9 @@
-.navbar {
+.header {
   padding: 20px 0 19px;
   background-color: #000000;
 }
-.navbar-wrap {
-  display: flex;
+.header__wrap {
   align-items: center;
-  justify-content: space-between;
 }
 .logo span{
   font-family: "Raleway";
@@ -18,12 +16,12 @@
   content: "it";
   color: #EC7979;
 }
-.navigation-list {
+.menu__list {
   width: 489px;
   display: flex;
   justify-content: space-between;
 }
-.navigation-list__item a{
+.menu__link{
   display: inline-block;
   font-weight: 600;
   font-size: 15px;
@@ -31,7 +29,7 @@
   border-bottom: 1px solid transparent;
   transition: 0.2s;
 }
-.navigation-list__item a:hover {
+.menu__link:hover {
   transform: scale(1.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }

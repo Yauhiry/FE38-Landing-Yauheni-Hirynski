@@ -3,8 +3,9 @@
   background-color: #F5F5F5;
   ;
 }
-.wrap_pricing {
+.pricing__wrap {
   margin: 61px -15px 0;
+  flex-wrap: wrap;
 }
 .list {
   width: 340px; 
@@ -13,7 +14,7 @@
 }
 .list:hover {
   transform: translate(0, -10px);
-  box-shadow: 0 0 20px 0 #86878B
+  /* box-shadow: 0 0 20px 0 #86878B */
 }
 .list__item {
   margin-bottom: 4px;

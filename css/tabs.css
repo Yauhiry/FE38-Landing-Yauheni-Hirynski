@@ -39,12 +39,12 @@
   background-color: #EC7979;
 }
 .tabs-content {
-  position: relative;
   width: 973px;
 }
 .tabs-content__item {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .tabs-content__item:nth-child(2) {
   display: none;
@@ -70,9 +70,10 @@
 .tabs-content__text p:last-child {
   margin-bottom: 0;
 }
+.tabs-content__text {
+  margin-bottom: 75px;
+}
 .tabs-content__link {
-  position: absolute;
-  top: 301px;
   display: block;
   width: 135px;
   line-height: 42px;
@@ -94,4 +95,5 @@
 }
 .tabs-content__img {
   object-fit: cover;
+  width: 100%;
 }

@@ -3,7 +3,6 @@
 }
 .tabs__wrap {
   margin: 0 -15px;
-  flex-wrap: wrap;
 }
 .tabs-header {
   display: flex;
@@ -57,13 +56,14 @@
   width: 568px;
 }
 .tabs-content__title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
   text-transform: uppercase;
   margin-bottom: 68px;
 }
 .tabs-content__text p {
-  font-size: 14px;
+  font-size: 0.875rem;
+  color: #86878B;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -71,14 +71,14 @@
   margin-bottom: 0;
 }
 .tabs-content__text {
-  margin-bottom: 75px;
+  margin-bottom: 72px;
 }
 .tabs-content__link {
   display: block;
   width: 135px;
   line-height: 42px;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #FFFFFF;
   background-color: #EC7979;
   text-align: center;
@@ -96,4 +96,6 @@
 .tabs-content__img {
   object-fit: cover;
   width: 100%;
+  height: 100%;
+  object-position: center;
 }

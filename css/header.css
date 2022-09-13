@@ -8,7 +8,7 @@
 .logo span{
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 30px;
+  font-size: 1.875rem;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -24,7 +24,7 @@
 .menu__link{
   display: inline-block;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.9275rem;
   color: rgba(255, 255, 255, 0.7);
   border-bottom: 1px solid transparent;
   transition: 0.2s;

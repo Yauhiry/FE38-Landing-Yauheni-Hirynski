@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 .footer-item {
-  font-size: 23px;
+  font-size: 1.4375rem;
   color: #CCCCCC;
   transition: 0.2s;
 }
@@ -21,6 +21,6 @@
   text-align: center;
   margin-top: 18px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.5);
 }

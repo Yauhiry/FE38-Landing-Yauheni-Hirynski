@@ -1,0 +1,302 @@
+@media (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 970px;
+  }
+  .tabs-content {
+    width: 800px;
+  }
+  .tabs-content__left {
+    width: 430px;
+  }
+  .tabs-content__text {
+    margin-bottom: 70px;
+  }
+  .tabs-content__image {
+    width: 300px;
+  }
+  .social-list {
+    width: 500px;
+  }
+  .card {
+    width: 292px;
+  }
+  .list {
+    width: 285px;
+  }
+  .contact-form__item textarea {
+    height: 196px;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 750px;
+  }
+  .tabs-content {
+    width: 600px;
+  }
+  .tabs-content__left {
+    width: 270px;
+  }
+  .tabs-content__text {
+    margin-bottom: 47px;
+  }
+  .tabs-content__image {
+    width: 270px;
+  }
+  .main-form {
+    width: 280px;
+  }
+  .social-list {
+    width: 400px;
+  }
+  .card {
+    width: 220px;
+  }
+  .list {
+    width: 220px;
+  }
+  .contact-form__item textarea {
+    height: 183px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+  .logo {
+    display: none;
+  }
+  .menu {
+    margin: auto;
+  }
+  .menu__list {
+    width: 360px;
+  }
+  .main__wrap {
+    flex-direction: column;
+  }
+  .main-logo {
+    text-align: center;
+  }
+  .title_white_left {
+    text-align: center;
+  }
+  .title_white_left::after {
+    margin: 34px auto;
+  }
+  .description_white_left {
+    text-align: center;
+    width: auto;
+  }
+  .download__link_left {
+    margin: 39px auto
+  }
+  .main-form {
+    width: 370px;
+  }
+  .social__wrap {
+    flex-direction: column;
+  }
+  .social-info {
+    width: auto;
+  }
+  .social-info__description {
+    margin-bottom: 14px;
+  }
+  .social-info {
+    width: 449px;
+  }
+  .social-list {
+    width: 449px;
+  }
+  .tabs__wrap {
+    flex-direction: column;
+  }
+  .tabs-header {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 364px;
+    margin: 0 auto 30px;
+  }
+  .tabs-header__button {
+    margin: 0;
+  }
+  .tabs-content {
+    width: 400px;
+    margin: auto;
+  }
+  .tabs-content__left {
+    width: 370px;
+    margin-bottom: 50px;
+  }
+  .tabs-content__title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .tabs-content__text {
+    margin-bottom: 47px;
+  }
+  .tabs-content__link {
+    width: 340px;
+    margin: auto;
+  }
+  .tabs-content__right {
+    margin: auto;
+  }
+  .tabs-content__image {
+    width: 340px;
+  }
+  .awesome__wrap {
+    flex-direction: column;
+    margin: auto;
+  }
+  .card {
+    width: 251px;
+    margin: 30px auto 0;
+  }
+  .pricing__wrap {
+    flex-direction: column;
+  }
+  .list {
+    width: 340px;
+    margin: 0 auto 25px;
+  }
+  .list:last-child {
+    margin: auto
+  }
+  .customers__wrap {
+    flex-direction: column;
+  }
+  .review {
+    margin: 0 auto 40px
+  }
+  .contact-form__content {
+    flex-direction: column;
+  }
+  .left-form {
+    margin: 0 auto 36px;
+    width: 340px;
+  }
+  .right-form {
+    margin: auto;
+    width: 340px;
+  }
+  .contact-button {
+    width: 340px;
+    margin: 36px auto 0;
+  }
+
+}
+
+@media (max-width: 566px) {
+  html {
+    font-size: 13 px;
+  }
+  .menu__list {
+    width: 290px;
+  }
+  .main {
+    padding: 30px 0 40px;
+  }
+  .left {
+    width: 290px;
+    margin: 0;
+  }
+  .right {
+    margin: 0;
+  }
+  .main-form {
+    width: 290px;
+  }
+  .main-form-content {
+    padding: 15px 45px 58px;
+}
+.social-info {
+  width: 290px;
+}
+  .social-list {
+    width: 290px;
+  }
+  .tabs {
+    padding: 50px 0 40px;
+  }
+  .tabs-header {
+    width: 290px;
+  }
+  .tabs-header__button {
+    width: 83px;
+    height: 80px;
+  }
+  .tabs-content {
+    width: 320px;
+  }
+  .tabs-content__left {
+    width: 290px;
+  }
+  .tabs-content__link {
+    width: 290px;
+  }
+  .tabs-content__right {
+    width: 290px;
+  }
+  .tabs-content__image {
+    width: 100%;
+  }
+  .awesome {
+    padding: 50px 0 60px;
+  }
+  .title {
+    width: 290px;
+    margin: auto;
+  }
+  .description {
+    width: 290px;
+    margin: auto;
+  }
+  .pricing {
+    padding: 50px 0 50px;
+  }
+  .list {
+    width: 290px;
+  }
+  .customers {
+    padding: 50px 0 25px;
+  }
+  .review {
+    width: 280px;
+  }
+  .contact {
+    padding: 50px 0 30px;
+  }
+  .contact__wrap {
+    margin-top: 50px;
+  }
+  .left-form {
+    width: 280px;
+  }
+  .right-form {
+    width: 280px;
+  }
+  .contact-button {
+    width: 290px;
+    margin: 30px auto 0;
+  }
+  .footer__social-list {
+    width: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .main-form {
+    width: 320px;
+    border-radius: 0px;
+  }
+}

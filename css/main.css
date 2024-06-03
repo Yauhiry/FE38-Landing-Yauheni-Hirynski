@@ -1,11 +1,10 @@
 .main {
-  padding: 98px 0 101px;
+  padding: 6.125rem 0 6.3125rem;
   background-image: url(../img/background-1\ 1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
-
 }
 .main::after {
   content: "";
@@ -23,23 +22,25 @@
   margin: 0 -15px;
 }
 .left {
-  width: 544px;
+  width: 34rem;
   margin: 0 15px;
 }
-.main-title {
+.main-logo {
+  margin-bottom: 2.625rem;
+}
+.main-logo span {
   font-family: "Roboto";
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 400;
   color: #FFFFFF;
   text-transform: uppercase;
-  margin-bottom: 42px;
 }
-.main-title::after {
+.main-logo span::after {
   content: 'IT';
   color: #EC7979;
 }
 .title_white_left {
-  font-size: 36px;
+  font-size: 2.25rem;
   text-transform: uppercase;
   font-family: "Raleway";
   font-weight: 400;
@@ -53,7 +54,7 @@
 }
 .description_white_left {
   width: 282px;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .download__link_left {
   margin: 39px 0 0;
@@ -71,7 +72,7 @@
   padding: 15px 59px 58px;
 }
 .main-form__title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #333333;
   text-transform: capitalize;
@@ -97,7 +98,7 @@
   outline: none;
 }
 .main-form__item label {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   color: #BDBDBD;
 }

@@ -6,16 +6,16 @@
   align-items: center;
 }
 .social-info {
-  width: 365px;
+  width: 22.8125rem;
 }
 .social-info__title {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-bottom: 14px;
 }
 .social-info__description p{
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .social-list {
   width: 684px;
@@ -23,7 +23,7 @@
   justify-content: space-between;
 }
 .social-list_item i{
-  font-size: 42px;
+  font-size: 2.625rem;
   color: #CCCCCC;
   transition: 0.2s;
 }

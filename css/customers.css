@@ -3,7 +3,6 @@
 }
 .customers__wrap {
   margin: 67px -15px 0;
-  flex-wrap: wrap;
 }
 .review {
   width: 298px;
@@ -27,7 +26,7 @@
 .review-text P {
   text-align: center;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   color: #86878B;
 }
@@ -54,12 +53,12 @@
   text-align: right;
 }
 .customer-name {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #333333;
 }
 .customer-profession {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   color: #86878B;
 }

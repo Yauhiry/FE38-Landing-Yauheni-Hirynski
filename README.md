@@ -32,7 +32,7 @@
 
 Евгений Гиринский - yauhiry@gmail.com
 
-Ссылка на проект: [https://github.com/Yauhiry/react-budget-app](https://github.com/Yauhiry/react-budget-app)
+Ссылка на проект: [https://github.com/Yauhiry/react-budget-app](https://github.com/Yauhiry/FE38-Landing-Yauheni-Hirynski)
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 

@@ -1,4 +1,4 @@
-# <p align="center">AX<font color="#EC7979">IT</font></p>
+# <p align="center">AX<span style="color: #EC7979">IT</span></p>
 
 <details>
   <summary>Навигация</summary>
@@ -14,7 +14,6 @@
 Этот проект был первым шагом в моем обучении. Простой одностраничный сайт, написан используя HTML и CSS, чтобы углубиться в эти технологии.
 
 <img src="readme-img/AXIT.png" alt="AXIT">
-<br>
 <br>
   <p align="center">
     <a href="https://yauhiry.github.io/bookstore/">Смотреть демо</a>

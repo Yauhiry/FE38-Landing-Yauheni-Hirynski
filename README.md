@@ -1,4 +1,4 @@
-# <p align="center">AX<span style="color: #EC7979">IT</span></p>
+# <p align="center">AXIT</p>
 
 <details>
   <summary>Навигация</summary>
@@ -16,7 +16,7 @@
 <img src="readme-img/AXIT.png" alt="AXIT">
 <br>
   <p align="center">
-    <a href="https://yauhiry.github.io/bookstore/">Смотреть демо</a>
+    <a href="https://yauhiry.github.io/FE38-Landing-Yauheni-Hirynski/">Смотреть демо</a>
   </p>
 
 <p align="right">(<a href="#readme-top">наверх</a>)</p>
